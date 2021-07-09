@@ -1,0 +1,54 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2, h5 {
+    background: darkgray;
+    color: white;
+    margin: 2px;
+    padding: 10px;
+}
+p{
+    margin: 5px 2px;
+    background: lightgray;
+    padding: 5px;
+}
+input{
+    padding: 5px;
+    margin: 2px;
+}
+div {
+    width: 20%;
+}
+button {
+    padding: 5px 20px;
+    border: 1px solid blue;
+    border-radius: 2px;
+    color: white;
+    background: blue;
+    cursor: pointer;
+}
+
+section#main{
+    display: flex;
+}
+section#calculation-result , section#pak-products-calc-result {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+div#quantity , div#daily-usage , div#Existing-watt, div#Pak-Products-Watt {
+    display: flex;
+    flex-direction: column;
+}
+
+input.calc , input.pak-calc{
+    width: 56%;
+}
+
+
+.as-blue {
+    background: #001180;
+}
+.as-green{
+    background-color: green;
+}

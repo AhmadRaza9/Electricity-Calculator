@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://www.robseagas.ca/wp-content/uploads/2019/04/fav.png" >
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    <title>Pak Electric Products</title>
+</head>
+<body>
+    <section id="main">
+        <div id="appliances">
+            <h2>Appliances</h2>
+            <p><b>Bulb</b></p>
+            <p><b>Fan</b></p>
+            <p><b>Computer</b></p>
+        </div>
+        <div id="quantity">
+            <h2>Quantity</h2>
+            <input type="number" id="blub" class="input">
+            <input type="number" id="fan" class="input">
+            <input type="number" id="computer" class="input">
+        </div>
+        <div id="daily-usage">
+            <h2>Usage / Day (Hours)</h2>
+            <input type="number" id="bulb-usage-qty" class="usage-qty">
+            <input type="number" id="fan-usage-qty" class="usage-qty">
+            <input type="number" id="pc-usage-qty" class="usage-qty">
+        </div>
+        <div id="Existing-watt">
+            <h2 class="as-blue">Existing watt</h2>
+            <input type="number" id="bulb-watt-qty" class="watt-qty">
+            <input type="number" id="fan-watt-qty" class="watt-qty">
+            <input type="number" id="pc-watt-qty" class="watt-qty">
+        </div>
+        <div id="Pak-Products-Watt">
+            <h2 class="as-green">Pak Products Watt</h2>
+            <div id="pak-pro-wat-inner">
+                <input type="number" id="bulb-pak-watt-qty" class="pak-watt-qty" value="30" disabled>
+            </div>   
+            <div id="pak-pro-wat-inner">
+                <input type="number" id="fan-pak-watt-qty" class="pak-watt-qty" value="90" disabled>
+            </div>
+            <div id="pak-pro-wat-inner">
+                <input type="number" id="pc-pak-watt-qty" class="pak-watt-qty" value="250" disabled>
+           </div>
+        </div>
+    </section>
+    <section id="calculation-result">
+        <div id="bulb-calculation">
+            <h5 class="as-blue">Energy Calculation Existing (KWh)</h5>
+            <button id="for-bulb">For Bulb</button>
+            <input type="number" id="bulb-calc" class="calc">
+        </div>
+        <div id="bulb-Fan">
+            <h5 class="as-blue">Energy Fan Existing (KWh)</h5>
+            <button id="for-fan">For Fan</button>
+            <input type="number" id="fan-calc" class="calc">
+        </div>
+        <div id="bulb-computer">
+            <h5 class="as-blue">Energy Computer Existing (KWh)</h5>
+            <button id="for-pc">For PC</button>
+            <input type="number" id="pc-calc" class="calc">
+        </div>
+    </section>
+    <section id="pak-products-calc-result">
+        <div id="bulb-calculation">
+            <h5 class="as-green">Energy Calculation with pak products(KWh)</h5>
+            <button id="for-pak-bulb">For Bulb</button>
+            <input type="number" id="pak-bulb-calc" class="pak-calc">
+        </div>
+        <div id="bulb-calculation">
+            <h5 class="as-green">Energy Calculation with pak products(KWh)</h5>
+            <button id="for-pak-fan">For Fan</button>
+            <input type="number" id="pak-fan-calc" class="pak-calc">
+        </div>
+        <div id="bulb-calculation">
+            <h5 class="as-green">Energy Calculation with pak products(KWh)</h5>
+            <button id="for-pak-pc">For PC</button>
+            <input type="number" id="pak-pc-calc" class="pak-calc">
+        </div>
+    </section>
+</body>
+</html>
